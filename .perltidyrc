@@ -1,0 +1,30 @@
+-l=80   # Max line width is 80 cols
+-i=4    # Indent level is 4 cols
+-ci=4   # Continuation indent is 4 cols
+-st     # Output to STDOUT
+-se     # Errors to STDERR
+
+-vt=2   # Maximal vertical tightness
+-cti=0  # No extra indentation for closing brackets
+-pt=1   # Medium parenthesis tightness
+-bt=1   # Medium brace tightness
+-sbt=1  # Medium square bracket tightness
+-bbt=1  # Medium block brace tightness
+-nsfs   # No space before semicolons
+-nolq   # Don't outdent long quoted strings
+
+-wbb="% + - * / x != == >= <= =~ !~ < > | & >= < = **= += *= &= <<= &&= -= /= |= >>= ||= .= %= ^= x="
+    # Break before all operators
+
+### mikegrb
+
+-bbvt=2 # block vertical tightness
+-vt=2   # max opening vertical tightness
+-sot    # stack opening tokens
+-sct    # stack closing tokens
+-nola   # don't outdent labels
+-otr    #  opening token right
+-isbc   # indent spaced block comments
+
+#  -- tabs :/ -- #
+# -et=4
